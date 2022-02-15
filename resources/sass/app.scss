@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.container-postcards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .postcards {
+        width: calc(100% / 4 - 10px);
+        border: 1px solid black;
+        margin-top: 20px;
+        text-align: center;
+
+        img {
+            width: 100px;
+        }
+    }
+}
