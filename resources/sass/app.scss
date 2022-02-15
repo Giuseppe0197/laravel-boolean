@@ -7,6 +7,24 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+body {
+    background-color: white;
+
+    header, .container-form, footer, .container-create {
+        text-align: center;
+    }
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    margin: 20px 0;
+        &:hover{
+            background-color: red;
+            color: white;
+        }
+}
+
 .container-postcards {
     display: flex;
     justify-content: space-evenly;

@@ -10962,6 +10962,28 @@ a.text-dark:focus {
   }
 }
 
+body {
+  background-color: white;
+}
+
+body header,
+body .container-form,
+body footer,
+body .container-create {
+  text-align: center;
+}
+
+.btn {
+  background-color: green;
+  color: white;
+  margin: 20px 0;
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+}
+
 .container-postcards {
   display: flex;
   justify-content: space-evenly;

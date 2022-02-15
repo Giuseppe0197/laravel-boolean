@@ -1,3 +1,3 @@
 <header>
-    <h1>Hello World</h1>
+    <h1>Benvenuto! Crea la tua cartolina personalizzata! Divertiti!</h1>
 </header>
